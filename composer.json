@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "lukabuz\\LaravelBalance\\": "src/"
+            "Lukabuz\\LaravelBalance\\": "src/"
         }
     },
     "minimum-stability": "dev"

@@ -1,9 +1,9 @@
 <?php
 
-namespace Vuer\LaravelBalance\Assemblers;
+namespace Lukabuz\LaravelBalance\Assemblers;
 
-use Vuer\LaravelBalance\Models\Transaction;
-use Vuer\LaravelBalance\Dto\TransactionDto;
+use Lukabuz\LaravelBalance\Models\Transaction;
+use Lukabuz\LaravelBalance\Dto\TransactionDto;
 
 class TransactionDtoAssembler
 {

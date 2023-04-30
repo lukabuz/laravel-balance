@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuer\LaravelBalance;
+namespace Lukabuz\LaravelBalance;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -20,7 +20,7 @@ class BalanceServiceProvider extends ServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/../config/config.php' => app()->basePath() . '/config/vuer-account-balance.php',
+            __DIR__ . '/../config/config.php' => app()->basePath() . '/config/lukabuz-account-balance.php',
         ], 'config');
     }
 

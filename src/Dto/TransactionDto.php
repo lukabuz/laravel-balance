@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuer\LaravelBalance\Dto;
+namespace Lukabuz\LaravelBalance\Dto;
 
 class TransactionDto
 {

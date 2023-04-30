@@ -1,9 +1,9 @@
 <?php
 
-namespace Vuer\LaravelBalance\Exceptions;
+namespace Lukabuz\LaravelBalance\Exceptions;
 
 use Money\Currency;
-use Vuer\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
+use Lukabuz\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
 
 class AccountBalanceLogicException extends \LogicException
 {

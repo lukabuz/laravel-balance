@@ -1,13 +1,13 @@
 # Laravel Balance
 
-[![Latest Stable Version](https://poser.pugx.org/vuer/laravel-balance/v/stable)](https://packagist.org/packages/vuer/laravel-balance) [![Total Downloads](https://poser.pugx.org/vuer/laravel-balance/downloads)](https://packagist.org/packages/vuer/laravel-balance) [![Latest Unstable Version](https://poser.pugx.org/vuer/laravel-balance/v/unstable)](https://packagist.org/packages/vuer/laravel-balance) [![License](https://poser.pugx.org/vuer/laravel-balance/license)](https://packagist.org/packages/vuer/laravel-balance)
+[![Latest Stable Version](https://poser.pugx.org/lukabuz/laravel-balance/v/stable)](https://packagist.org/packages/lukabuz/laravel-balance) [![Total Downloads](https://poser.pugx.org/lukabuz/laravel-balance/downloads)](https://packagist.org/packages/lukabuz/laravel-balance) [![Latest Unstable Version](https://poser.pugx.org/lukabuz/laravel-balance/v/unstable)](https://packagist.org/packages/lukabuz/laravel-balance) [![License](https://poser.pugx.org/lukabuz/laravel-balance/license)](https://packagist.org/packages/lukabuz/laravel-balance)
 
 ## Installation
 
 You can install this package via composer using this command:
   
 ```
-composer require vuer/laravel-balance
+composer require lukabuz/laravel-balance
 ```
 
 Next, you must install the service provider:
@@ -16,7 +16,7 @@ Next, you must install the service provider:
 // config/app.php
 'providers' => [
     ...
-    Vuer\LaravelBalance\BalanceServiceProvider::class,
+    Lukabuz\LaravelBalance\BalanceServiceProvider::class,
 ];
 ```
 
@@ -40,8 +40,8 @@ Associate account balance with a model:
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Vuer\LaravelBalance\Models\AccountBalance;
-use Vuer\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface
+use Lukabuz\LaravelBalance\Models\AccountBalance;
+use Lukabuz\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface
 
 class User extends Model implements AccountBalanceHolderInterface
 {
@@ -67,8 +67,8 @@ class User extends Model implements AccountBalanceHolderInterface
 Register dependencies:
 ``` php
 <?php
-use Vuer\LaravelBalance\Services\Accountant;
-use Vuer\LaravelBalance\Services\TransactionProcessor;
+use Lukabuz\LaravelBalance\Services\Accountant;
+use Lukabuz\LaravelBalance\Services\TransactionProcessor;
 
 class SomeController extends Controller
 {

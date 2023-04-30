@@ -1,11 +1,11 @@
 <?php
 
-namespace Vuer\LaravelBalance\Services;
+namespace Lukabuz\LaravelBalance\Services;
 
-use Vuer\LaravelBalance\Assemblers\TransactionDtoAssembler;
-use Vuer\LaravelBalance\Dto\TransactionDto;
-use Vuer\LaravelBalance\Models\AccountBalance;
-use Vuer\LaravelBalance\Models\Transaction;
+use Lukabuz\LaravelBalance\Assemblers\TransactionDtoAssembler;
+use Lukabuz\LaravelBalance\Dto\TransactionDto;
+use Lukabuz\LaravelBalance\Models\AccountBalance;
+use Lukabuz\LaravelBalance\Models\Transaction;
 
 class TransactionProcessor
 {

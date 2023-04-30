@@ -1,11 +1,11 @@
 <?php
 
-namespace Vuer\LaravelBalance\Models;
+namespace Lukabuz\LaravelBalance\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Money\Currency;
 use Money\Money;
-use Vuer\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
+use Lukabuz\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
 use Illuminate\Support\Facades\Config;
 
 class AccountBalance extends Model
@@ -25,7 +25,7 @@ class AccountBalance extends Model
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
-        $this->table = Config::get('vuer-account-balance.account_balance_table');
+        $this->table = Config::get('lukabuz-account-balance.account_balance_table');
     }
 
     /**

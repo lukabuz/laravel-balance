@@ -1,11 +1,11 @@
 <?php
 
-namespace Vuer\LaravelBalance\Services;
+namespace Lukabuz\LaravelBalance\Services;
 
 use Money\Currency;
-use Vuer\LaravelBalance\Exceptions\AccountBalanceLogicException;
-use Vuer\LaravelBalance\Models\AccountBalance;
-use Vuer\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
+use Lukabuz\LaravelBalance\Exceptions\AccountBalanceLogicException;
+use Lukabuz\LaravelBalance\Models\AccountBalance;
+use Lukabuz\LaravelBalance\Models\Interfaces\AccountBalanceHolderInterface;
 
 class Accountant
 {

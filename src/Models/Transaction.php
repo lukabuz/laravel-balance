@@ -1,6 +1,6 @@
 <?php
 
-namespace Vuer\LaravelBalance\Models;
+namespace Lukabuz\LaravelBalance\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
@@ -26,7 +26,7 @@ class Transaction extends Model
         if (!$this->created_at) {
             $this->created_at = (new \DateTime())->format('Y-m-d H:i:s');
         }
-        $this->table = Config::get('vuer-account-balance.account_balance_transactions_table');
+        $this->table = Config::get('lukabuz-account-balance.account_balance_transactions_table');
     }
 
     /**

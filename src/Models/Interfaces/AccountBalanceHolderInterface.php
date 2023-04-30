@@ -1,8 +1,8 @@
 <?php
 
-namespace Vuer\LaravelBalance\Models\Interfaces;
+namespace Lukabuz\LaravelBalance\Models\Interfaces;
 
-use Vuer\LaravelBalance\Models\AccountBalance;
+use Lukabuz\LaravelBalance\Models\AccountBalance;
 
 interface AccountBalanceHolderInterface
 {
